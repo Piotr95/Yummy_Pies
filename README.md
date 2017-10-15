@@ -4,7 +4,7 @@
 
      User can :
                 Register,Login/out
-                create recipy
+                Create recipy
                 CRUD own recipies 
                 Read others recipies and  comment,(like/hate), choose recipy to make it.
      Admin (super user) can :  
@@ -14,12 +14,12 @@
                 Recipy :
                         Difficulty (easy , midium , hard )
                         Instruction(s)
-                        ingredients
+                        Ingredients
                         Comments (from users)
                         Cost (sum up ingridians price)
                 Ingridients:        
-                            name
-                            price
+                            Name
+                            Price
      Apps:
             Recipy:
                     Users can create recipyies choose  ingridients (if not exist create it) and e.g write instructions
@@ -40,9 +40,9 @@
 
 **Usefull commends:**
 
-    1. django-admin.py startproject "new_project"_ - create project dictionary and  default  django files.
-    2. python manage.py startapp "new_aplication"_ - create aplication.
-    3. python manage.py migrate - create database from models 
-    4. python manage.py runserver - run app serwer   default  at http://127.0.0.1:8000/
-    5. python manage.py createsuperuser - create superuser/admin
-    6. python manage.py makemigrations -make new migrations
+    1. django-admin.py startproject "new_project"_ - Create project dictionary and  default  django files.
+    2. python manage.py startapp "new_aplication"_ - Create aplication.
+    3. python manage.py migrate - Create database from models 
+    4. python manage.py runserver - Run app serwer default at http://127.0.0.1:8000/
+    5. python manage.py createsuperuser - Create superuser/admin
+    6. python manage.py makemigrations -Make new migrations
