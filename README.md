@@ -4,7 +4,7 @@
 
      User can :
                 Register,Login/out
-                create recipy,
+                create recipy
                 CRUD own recipies 
                 Read others recipies and  comment,(like/hate), choose recipy to make it.
      Admin (super user) can :  
@@ -26,7 +26,7 @@
                     Admin can modify it              
             Ingridient:
                         CRUD  igridients from Admin (users can only create it) 
-            Your recipies: 
+            Your_recipies: 
                         Show cost of all chosen recipies,require ingridients 
                         User can remove recipy from basket           
  
