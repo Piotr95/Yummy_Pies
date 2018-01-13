@@ -41,7 +41,7 @@ def login(request):
                 if user is not None:
                      if user.is_active:
                         auth.login(request, user)
-                        return render(request, 'Home/authindex.html',{'user':user})
+                        return render(request, 'Home/authhome.html',{'user':user})
                 else:
                  return render(request, 'UserManagement/Papaja.html', {'error_message': 'Your account has been disabled'})
             else:

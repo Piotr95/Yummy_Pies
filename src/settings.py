@@ -35,6 +35,7 @@ ALLOWED_HOSTS = []
 INSTALLED_APPS = [
     'Home',
     'UserManagement',
+    'Ingredients',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -58,7 +59,7 @@ ROOT_URLCONF = 'src.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [os.path.join(BASE_DIR, 'Home/templates/Home'),os.path.join(BASE_DIR, 'UserManagement/templates/Home')]
+        'DIRS': [os.path.join(BASE_DIR, 'Home/templates/Home'),os.path.join(BASE_DIR, 'UserManagement/templates/UserManagement'),os.path.join(BASE_DIR, 'Ingredients/templates/Ingredients')]
         ,
         'APP_DIRS': True,
         'OPTIONS': {
@@ -122,6 +123,5 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.11/howto/static-files/
 STATIC_URL = '/static/'
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media').replace('\\', '/')
 MEDIA_URL = '/media/'
-MEDIA_ROOT = os.path.join(PROJECT_DIR, 'media')
-

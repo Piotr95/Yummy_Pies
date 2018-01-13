@@ -11,6 +11,9 @@ from UserManagement.forms import  Registration_Form
 
 
 def index(request):
+     if request.user.is_authenticated():
+      return render(request, 'Home/authindex.html')
+
      return render(request,'Home/index.html')
 from django.contrib.staticfiles import finders
 
